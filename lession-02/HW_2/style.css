@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.box_content-product{
+    border-left: 2px rgb(218, 215, 215) solid;
+    padding-left: 10px;
+}
+h1 ,h2,h4, .clor-1 ,.clor-2{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+.clor-1 {
+    color: #2d94f6;
+}
+.clor-2 , .pri-style-1{
+    color: #6e6f69;
+}
+
+.pri-clor{
+  color: #ff444d;
+  word-spacing:2px;
+}
+.pri-style{
+    font-size: 36px;
+}
+.pri-style-1{
+   text-decoration: line-through;
+}
+.price-1-colr{
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: purple;
+    border: 1px solid purple;
+    background-color: #f1edff;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+input[type=button],input[type=number]{
+    width: 30px;
+    font-size: 18px;
+}
+.oder{
+    background-color: #ff444d;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 35px;
+    color: #ffff;
+    font-weight: 600;  
+}
+table{
+    background-color: #efefef;
+}
+.font-style{
+ font-weight: 600;
+ font-size: 12px;
+ width: 50%;
+ height: 30px;
+ 
+}
+.bg-color-1{
+    background-color: #ffff;
+}

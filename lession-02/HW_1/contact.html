@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lession-02 CSS Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- content contact -->
+    <h1>Contact Me</h1>
+    <img class="rs_contact" src="./img/contact-us.jpg" alt="Contact Me" />
+    <h3 class="contact-color">&#9989; Information</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Address</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Việt Nam</td>
+          <td>Đồng Nai</td>
+          <td>0909999999</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="contact-color">&#128140; Social</h3>
+    <a href="https://facebook.com/"
+      ><img class="social-ic" src="./img/icon/f.svg" alt="Facebook"
+    /></a>
+    <a href="https://gmail.com/"
+      ><img class="social-ic" src="./img/icon/g.svg" alt="Gmail"
+    /></a>
+    <a href="https://telegram.org/"
+      ><img class="social-ic" src="./img/icon/t.svg" alt="Telegram"
+    /></a>
+    <a href="https://twitter.com/"
+      ><img class="social-ic" src="./img/icon/tw.svg" alt="Twitter"
+    /></a>
+    <a href="https://youtube.com/"
+      ><img class="social-ic" src="./img/icon/y.svg" alt="Youtube"
+    /></a>
+    <hr />
+    <h1>Leave me a mesenger</h1>
+    <form action="./contact.html">
+      <label for="your-name">Your Name</label><br />
+      <input type="text" id="your-name" /><br />
+      <label for="your-email">Your Email</label><br />
+      <input type="email" id="your-email" /><br />
+      <label for="your-messenger">Your Messenger</label><br />
+      <textarea name="mesenger" id="your-messenger"></textarea><br />
+
+      <button
+        class="submit"
+        onclick="alert('Thông tin đã được gửi thành công , Thanks You!')"
+      >
+        SEND MESSENGER
+      </button>
+    </form>
+    <!-- end content contact -->
+  </body>
+</html>

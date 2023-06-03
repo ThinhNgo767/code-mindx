@@ -1,0 +1,50 @@
+body{
+    background-color: #dfeef0;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2, h3 ,hr{
+    color: #6a8d8f;
+}
+table,th,td{
+    border: 1px black solid;
+    text-align: center;
+}
+table{
+    width: 35%;
+}
+hr{
+    border: 2px dashed;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    font-size: 24px;
+}
+.rs_face{
+    border-radius: 50%;
+    width: 250px;
+    
+}
+.rs_contact{
+    width: 35%;
+    height: 150px;
+    border-radius: 5px;
+}
+.social-ic{
+    width: 30px;
+}
+input[type=text],input[type=email]{
+    width: 300px;
+    height: 20px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+.submit{
+    width: 305px;
+    height: 25px;
+    font-size: 15px;
+}
+
