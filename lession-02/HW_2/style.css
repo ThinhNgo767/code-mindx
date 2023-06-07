@@ -65,4 +65,18 @@ table{
 }
 .bg-color-1{
     background-color: #ffff;
+
+}
+div.test-tran {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-timing-function: linear;
+}
+
+div.test-tran:hover {
+  width: 300px;
+  
+
 }

@@ -46,5 +46,6 @@ textarea{
     width: 305px;
     height: 25px;
     font-size: 15px;
+    position: sticky;
 }
 
