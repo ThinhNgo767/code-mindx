@@ -219,6 +219,7 @@ hr {
 input[type=radio] {
   width: 15px;
   height: 15px;
+  accent-color: #cd1818;
 }
 
 .box_type-product,
